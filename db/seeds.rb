@@ -23,7 +23,7 @@ end
   )
 end
 
-100.times do
+1000.times do
   Event.create(
   name: Faker::Superhero.power,
   registered_application_id: RegisteredApplication.all.sample.id
